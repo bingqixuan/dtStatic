@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja_JP" style="width: 100%; height: 100%;">
+<head>
+<script>
+window.dataLayer = window.dataLayer || [];
+</script>
+<meta charset="utf-8" />
+<link href="css/mapbox-gl.css" rel="stylesheet" />
+<link href="css/japan-eq-locator.css" rel="stylesheet" />
+<title>日本地震位置可视化</title>
+<script src="js/deck-gl.min.js"></script>
+<script src="js/deck-gl-mapbox.min.js"></script>
+<script src="js/mapbox-gl.js"></script>
+<script src="js/d3-color@3.js"></script>
+<script src="js/d3-interpolate@3.js"></script>
+<script src="js/d3-scale@4.js"></script>
+<script src="js/d3-scale-chromatic@3.js"></script>
+</head>
+<body>
+<div id="map">
+  <div id="list-bg" class="bg">
+    <div id="list" class="menu">
+      <div>最近的地震</div>
+      <div></div>
+    </div>
+  </div>
+  <div id="info-bg" class="bg">
+  </div>
+</div>
+<script src="js/japan-eq-locator.js"></script>
+</body>
