@@ -1,0 +1,234 @@
+.digital-container-wapper[data-v-41f2d53c] {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: .65rem
+}
+
+.digital-container-wapper.right[data-v-41f2d53c] {
+    background-image: -webkit-linear-gradient(right, rgba(9, 30, 55, .6), rgba(9, 30, 55, .1));
+    background-image: linear-gradient(-90deg, rgba(9, 30, 55, .6), rgba(9, 30, 55, .1))
+}
+
+.digital-container-wapper.left[data-v-41f2d53c] {
+    background-image: -webkit-linear-gradient(left, rgba(9, 30, 55, .6), rgba(9, 30, 55, .1));
+    background-image: linear-gradient(90deg, rgba(9, 30, 55, .6), rgba(9, 30, 55, .1))
+}
+
+.digital-container-wapper .digital-title[data-v-41f2d53c] {
+    height: 1.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: .5rem;
+    position: relative;
+    z-index: 1
+}
+
+.digital-container-wapper .digital-title div[data-v-41f2d53c] {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    height: .2rem;
+    position: relative
+}
+
+.digital-container-wapper .digital-title div[data-v-41f2d53c]:first-child {
+    background: -webkit-linear-gradient(right, #355a77 50%, hsla(0, 0%, 100%, 0));
+    background: linear-gradient(270deg, #355a77 50%, hsla(0, 0%, 100%, 0))
+}
+
+.digital-container-wapper .digital-title div[data-v-41f2d53c]:first-child:before {
+    left: 110%
+}
+
+.digital-container-wapper .digital-title div[data-v-41f2d53c]:last-child {
+    background: -webkit-linear-gradient(left, rgba(53, 90, 119, .7) 10%, hsla(0, 0%, 100%, 0));
+    background: linear-gradient(90deg, rgba(53, 90, 119, .7) 10%, hsla(0, 0%, 100%, 0))
+}
+
+.digital-container-wapper .digital-title div[data-v-41f2d53c]:last-child:before {
+    right: 110%
+}
+
+.digital-container-wapper .digital-title div[data-v-41f2d53c]:before {
+    content: "";
+    width: .2rem;
+    height: .2rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    border-radius: 50%;
+    background: #f2ce8e;
+    box-shadow: 0 0 .25rem 0 #f2ce8e, 0 0 1rem .1rem #f2ce8e;
+    position: absolute
+}
+
+.digital-container-wapper .digital-title span[data-v-41f2d53c] {
+    padding: 0 1.7rem;
+    color: #bbe1ff;
+    font-size: .9rem;
+    font-weight: 600
+}
+
+.digital-container-wapper .digital-content[data-v-41f2d53c] {
+    height: calc(100% - 2rem);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.digital-container-wapper .digital-content>div[data-v-41f2d53c] {
+    width: 100%;
+    height: 100%
+}
+
+.switchTab-wapper[data-v-60244b52] {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    height: 1.8rem;
+    width: 100%;
+    padding: 0 1rem;
+    background: -webkit-linear-gradient(left, rgba(53, 90, 119, .7) 10%, hsla(0, 0%, 100%, 0));
+    background: linear-gradient(90deg, rgba(53, 90, 119, .7) 10%, hsla(0, 0%, 100%, 0))
+}
+
+.switchTab-wapper .switchTab-left[data-v-60244b52],
+.switchTab-wapper[data-v-60244b52] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.switchTab-wapper .switchTab-left .switchTab-title[data-v-60244b52] {
+    color: #7ec7ff;
+    font-size: .8rem;
+    margin-right: .85rem
+}
+
+.switchTab-wapper .switchTab-left .switchTab-number[data-v-60244b52] {
+    font-size: 1rem;
+    position: relative;
+    top: .1rem
+}
+
+.switchTab-wapper .switch-switch[data-v-60244b52] {
+    border: .05rem solid #638fbb
+}
+
+.switchTab-wapper .switch-item[data-v-60244b52],
+.switchTab-wapper .switch-switch[data-v-60244b52] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.switchTab-wapper .switch-item[data-v-60244b52] {
+    cursor: pointer;
+    pointer-events: all;
+    position: relative;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    width: 2.2rem;
+    height: 100%;
+    color: #bae0ff;
+    font-size: .8rem
+}
+
+.switchTab-wapper .switch-item[data-v-60244b52]:hover {
+    color: #dbedfc
+}
+
+.switchTab-wapper .switch-item.active[data-v-60244b52] {
+    color: #bae0ff;
+    background: rgba(133, 196, 255, .3)
+}
+
+.digital-subtitle-contetn[data-v-47a71a14] {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.digital-subtitle-contetn .ds-content[data-v-47a71a14] {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    height: 0
+}
+
+.digital-subtitle-contetn .ds-content>div[data-v-47a71a14] {
+    height: 100%
+}
+
+.chartsStatus-wapper[data-v-5b875e96] {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.chartsStatus-wapper>div[data-v-5b875e96] {
+    color: #02c9cc;
+    font-size: .7rem
+}
+
+.chartsStatus-wapper>div[data-v-5b875e96]:first-child {
+    margin-bottom: 2%
+}
+
+.chartsStatus-wapper>div:first-child img[data-v-5b875e96] {
+    width: 9.5rem
+}
+
+.echarts-wapper[data-v-ba0035ae],
+.pie[data-v-ba0035ae] {
+    width: 100%;
+    height: 100%
+}

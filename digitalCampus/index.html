@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel=icon href=./logo.png>
+    <title>智慧校园孪生可视化</title>
+    <script src=https://cdn.bootcdn.net/ajax/libs/jquery/3.1.0/jquery.min.js></script>
+    <link href=./static/css/app.df5b1df5.css rel=preload as=style>
+    <link href=./static/css/chunk-elementUI.d3c30a46.css rel=preload as=style>
+    <link href=./static/css/chunk-libs.b83e36dc.css rel=preload as=style>
+    <link href=./static/js/app.71472694.js rel=preload as=script>
+    <link href=./static/js/chunk-elementUI.ab7b66f9.js rel=preload as=script>
+    <link href=./static/js/chunk-libs.78dcfd0a.js rel=preload as=script>
+    <link href=./static/css/chunk-elementUI.d3c30a46.css rel=stylesheet>
+    <link href=./static/css/chunk-libs.b83e36dc.css rel=stylesheet>
+    <link href=./static/css/app.df5b1df5.css rel=stylesheet>
+</head>
+<style>
+    html,
+    body {
+        font-size: 1.0417vw;
+        /* 1.0417/100*1920  = 20.00064 */
+        /* 1.0580/100*1920  = 20.31744 */
+        overflow: hidden;
+    }
+
+    @media screen and (max-width: 1440px) {
+        html,
+        body {
+            font-size: 15px;
+        }
+    }
+
+    @media screen and (max-width: 1600px) {
+        html,
+        body {
+            font-size: 17px;
+        }
+    }
+
+    @media screen and (min-width: 1920px) {
+        html,
+        body {
+            /* font-size: 20px; */
+        }
+    }
+</style>
+
+<body><noscript><strong>We're sorry but - 智慧校园孪生可视化 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+    <div id=app></div>
+    <script>
+        (function(e) {
+            function c(c) {
+                for (var u, a, h = c[0], f = c[1], d = c[2], k = 0, o = []; k < h.length; k++) a = h[k], Object.prototype.hasOwnProperty.call(t, a) && t[a] && o.push(t[a][0]), t[a] = 0;
+                for (u in f) Object.prototype.hasOwnProperty.call(f, u) && (e[u] = f[u]);
+                b && b(c);
+                while (o.length) o.shift()();
+                return r.push.apply(r, d || []), n()
+            }
+
+            function n() {
+                for (var e, c = 0; c < r.length; c++) {
+                    for (var n = r[c], u = !0, a = 1; a < n.length; a++) {
+                        var h = n[a];
+                        0 !== t[h] && (u = !1)
+                    }
+                    u && (r.splice(c--, 1), e = f(f.s = n[0]))
+                }
+                return e
+            }
+            var u = {},
+                a = {
+                    runtime: 0
+                },
+                t = {
+                    runtime: 0
+                },
+                r = [];
+
+            function h(e) {
+                return f.p + "static/js/" + ({}[e] || e) + "." + {
+                    "chunk-01bd3a4d": "12e77ede",
+                    "chunk-15ac51ae": "cd49d39f",
+                    "chunk-375602b4": "9ec32ab7",
+                    "chunk-3dc0611e": "8039638c",
+                    "chunk-4aaa02e8": "a99b6c73",
+                    "chunk-5f879df8": "bfdb14fe",
+                    "chunk-64231f1b": "4ed70b4e",
+                    "chunk-6cec1b35": "d203f1fc",
+                    "chunk-6d990e8a": "e3f821da",
+                    "chunk-7a84a594": "32c3341d",
+                    "chunk-b37519bc": "1951d845",
+                    "chunk-e1858382": "f2e9e1b9",
+                    "chunk-fb54a244": "65645cb3",
+                    "chunk-3befdf05": "995d612a",
+                    "chunk-411a8765": "82756065",
+                    "chunk-503f4006": "105fb610",
+                    "chunk-66f3db3c": "ecf3c32b",
+                    "chunk-0264f6d9": "a9142611",
+                    "chunk-2c60b1fc": "9563d84e",
+                    "chunk-3956d878": "65be52aa",
+                    "chunk-636caeac": "983f2f70",
+                    "chunk-8de62a48": "be4192b3",
+                    "chunk-becec24c": "885864d4",
+                    "chunk-da186f26": "bc96784f",
+                    "chunk-efa456e2": "5e855589",
+                    "chunk-745de591": "58e9b436",
+                    "chunk-7a5b6a6f": "036bf7dd",
+                    "chunk-52fdd4b4": "e359848f",
+                    "chunk-390f9b44": "54a20e79",
+                    "chunk-949d3972": "a3f6eb14",
+                    "chunk-622deadc": "2c67ff40",
+                    "chunk-0ea7b972": "67cb46f1",
+                    "chunk-a6ee6a1e": "997ed676",
+                    "chunk-cee23dba": "37242156",
+                    "chunk-90df4140": "2e657f52",
+                    "chunk-96a23f62": "67ef641c",
+                    "chunk-b2010e44": "c1cef697",
+                    "chunk-c673996c": "b4e53305",
+                    "chunk-d2ae315c": "00e71648"
+                }[e] + ".js"
+            }
+
+            function f(c) {
+                if (u[c]) return u[c].exports;
+                var n = u[c] = {
+                    i: c,
+                    l: !1,
+                    exports: {}
+                };
+                return e[c].call(n.exports, n, n.exports, f), n.l = !0, n.exports
+            }
+            f.e = function(e) {
+                var c = [],
+                    n = {
+                        "chunk-01bd3a4d": 1,
+                        "chunk-15ac51ae": 1,
+                        "chunk-375602b4": 1,
+                        "chunk-3dc0611e": 1,
+                        "chunk-4aaa02e8": 1,
+                        "chunk-5f879df8": 1,
+                        "chunk-64231f1b": 1,
+                        "chunk-6cec1b35": 1,
+                        "chunk-6d990e8a": 1,
+                        "chunk-7a84a594": 1,
+                        "chunk-b37519bc": 1,
+                        "chunk-e1858382": 1,
+                        "chunk-fb54a244": 1,
+                        "chunk-3befdf05": 1,
+                        "chunk-411a8765": 1,
+                        "chunk-503f4006": 1,
+                        "chunk-66f3db3c": 1,
+                        "chunk-0264f6d9": 1,
+                        "chunk-2c60b1fc": 1,
+                        "chunk-3956d878": 1,
+                        "chunk-636caeac": 1,
+                        "chunk-8de62a48": 1,
+                        "chunk-becec24c": 1,
+                        "chunk-da186f26": 1,
+                        "chunk-efa456e2": 1,
+                        "chunk-745de591": 1,
+                        "chunk-390f9b44": 1,
+                        "chunk-0ea7b972": 1,
+                        "chunk-cee23dba": 1,
+                        "chunk-90df4140": 1,
+                        "chunk-96a23f62": 1,
+                        "chunk-b2010e44": 1,
+                        "chunk-c673996c": 1,
+                        "chunk-d2ae315c": 1
+                    };
+                a[e] ? c.push(a[e]) : 0 !== a[e] && n[e] && c.push(a[e] = new Promise((function(c, n) {
+                    for (var u = "static/css/" + ({}[e] || e) + "." + {
+                            "chunk-01bd3a4d": "07dca70d",
+                            "chunk-15ac51ae": "46ce6974",
+                            "chunk-375602b4": "78b673b0",
+                            "chunk-3dc0611e": "cfeed435",
+                            "chunk-4aaa02e8": "caa4b086",
+                            "chunk-5f879df8": "c658d3bc",
+                            "chunk-64231f1b": "88d3ebcc",
+                            "chunk-6cec1b35": "952600e2",
+                            "chunk-6d990e8a": "f8ec9a5d",
+                            "chunk-7a84a594": "d7e5ff5f",
+                            "chunk-b37519bc": "83e9847f",
+                            "chunk-e1858382": "8945156f",
+                            "chunk-fb54a244": "ccd493a0",
+                            "chunk-3befdf05": "266ac824",
+                            "chunk-411a8765": "6c47c448",
+                            "chunk-503f4006": "fa52f21e",
+                            "chunk-66f3db3c": "b0771212",
+                            "chunk-0264f6d9": "a8ecd517",
+                            "chunk-2c60b1fc": "017e93da",
+                            "chunk-3956d878": "69a44338",
+                            "chunk-636caeac": "0945cc60",
+                            "chunk-8de62a48": "9f43d0de",
+                            "chunk-becec24c": "bfbce810",
+                            "chunk-da186f26": "5590962c",
+                            "chunk-efa456e2": "eb96c4a8",
+                            "chunk-745de591": "a01d3e82",
+                            "chunk-7a5b6a6f": "31d6cfe0",
+                            "chunk-52fdd4b4": "31d6cfe0",
+                            "chunk-390f9b44": "cbdc8176",
+                            "chunk-949d3972": "31d6cfe0",
+                            "chunk-622deadc": "31d6cfe0",
+                            "chunk-0ea7b972": "9d19c56b",
+                            "chunk-a6ee6a1e": "31d6cfe0",
+                            "chunk-cee23dba": "ffb9d3a0",
+                            "chunk-90df4140": "be2e35f1",
+                            "chunk-96a23f62": "13d8fb3b",
+                            "chunk-b2010e44": "97ad17c4",
+                            "chunk-c673996c": "4a12a9a5",
+                            "chunk-d2ae315c": "9c81cb64"
+                        }[e] + ".css", t = f.p + u, r = document.getElementsByTagName("link"), h = 0; h < r.length; h++) {
+                        var d = r[h],
+                            k = d.getAttribute("data-href") || d.getAttribute("href");
+                        if ("stylesheet" === d.rel && (k === u || k === t)) return c()
+                    }
+                    var o = document.getElementsByTagName("style");
+                    for (h = 0; h < o.length; h++) {
+                        d = o[h], k = d.getAttribute("data-href");
+                        if (k === u || k === t) return c()
+                    }
+                    var b = document.createElement("link");
+                    b.rel = "stylesheet", b.type = "text/css", b.onload = c, b.onerror = function(c) {
+                        var u = c && c.target && c.target.src || t,
+                            r = new Error("Loading CSS chunk " + e + " failed.\n(" + u + ")");
+                        r.code = "CSS_CHUNK_LOAD_FAILED", r.request = u, delete a[e], b.parentNode.removeChild(b), n(r)
+                    }, b.href = t;
+                    var i = document.getElementsByTagName("head")[0];
+                    i.appendChild(b)
+                })).then((function() {
+                    a[e] = 0
+                })));
+                var u = t[e];
+                if (0 !== u)
+                    if (u) c.push(u[2]);
+                    else {
+                        var r = new Promise((function(c, n) {
+                            u = t[e] = [c, n]
+                        }));
+                        c.push(u[2] = r);
+                        var d, k = document.createElement("script");
+                        k.charset = "utf-8", k.timeout = 120, f.nc && k.setAttribute("nonce", f.nc), k.src = h(e);
+                        var o = new Error;
+                        d = function(c) {
+                            k.onerror = k.onload = null, clearTimeout(b);
+                            var n = t[e];
+                            if (0 !== n) {
+                                if (n) {
+                                    var u = c && ("load" === c.type ? "missing" : c.type),
+                                        a = c && c.target && c.target.src;
+                                    o.message = "Loading chunk " + e + " failed.\n(" + u + ": " + a + ")", o.name = "ChunkLoadError", o.type = u, o.request = a, n[1](o)
+                                }
+                                t[e] = void 0
+                            }
+                        };
+                        var b = setTimeout((function() {
+                            d({
+                                type: "timeout",
+                                target: k
+                            })
+                        }), 12e4);
+                        k.onerror = k.onload = d, document.head.appendChild(k)
+                    }
+                return Promise.all(c)
+            }, f.m = e, f.c = u, f.d = function(e, c, n) {
+                f.o(e, c) || Object.defineProperty(e, c, {
+                    enumerable: !0,
+                    get: n
+                })
+            }, f.r = function(e) {
+                "undefined" !== typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+                    value: "Module"
+                }), Object.defineProperty(e, "__esModule", {
+                    value: !0
+                })
+            }, f.t = function(e, c) {
+                if (1 & c && (e = f(e)), 8 & c) return e;
+                if (4 & c && "object" === typeof e && e && e.__esModule) return e;
+                var n = Object.create(null);
+                if (f.r(n), Object.defineProperty(n, "default", {
+                        enumerable: !0,
+                        value: e
+                    }), 2 & c && "string" != typeof e)
+                    for (var u in e) f.d(n, u, function(c) {
+                        return e[c]
+                    }.bind(null, u));
+                return n
+            }, f.n = function(e) {
+                var c = e && e.__esModule ? function() {
+                    return e["default"]
+                } : function() {
+                    return e
+                };
+                return f.d(c, "a", c), c
+            }, f.o = function(e, c) {
+                return Object.prototype.hasOwnProperty.call(e, c)
+            }, f.p = "./", f.oe = function(e) {
+                throw console.error(e), e
+            };
+            var d = window["webpackJsonp"] = window["webpackJsonp"] || [],
+                k = d.push.bind(d);
+            d.push = c, d = d.slice();
+            for (var o = 0; o < d.length; o++) c(d[o]);
+            var b = k;
+            n()
+        })([]);
+    </script>
+    <script src=./static/js/chunk-elementUI.ab7b66f9.js></script>
+    <script src=./static/js/chunk-libs.78dcfd0a.js></script>
+    <script src=./static/js/app.71472694.js></script>
+</body>
+
+</html>
