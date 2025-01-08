@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>三维城市场景</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <script src="./js/three.js"></script>
+    <script src="./js/three_add.js"></script>
+    <script src="./js/stats.min.js"></script>
+    <script src="./js/greensock/TweenLite.min.js"></script>
+    <script src="./js/greensock/plugins/ScrollToPlugin.min.js"></script>
+    <script src="./js/greensock/easing/EasePack.min.js"></script>
+    <script src="./js/greensock/plugins/CSSPlugin.min.js"></script>
+    <script src="./js/greensock/easeljs-NEXT.min.js"></script>
+  <script type="module" crossorigin src="./assets/index-DZEfBbkt.js"></script>
+</head>
+<body id="rootBody">
+    <div id="webglcontainer"></div>
+    <div class="uiBox" id="debugBox" onmousedown="event.stopPropagation()">
+        <strong>操作控制</strong>:<br/>
+        <strong>WASD/方向键:</strong> 操控镜头水平移动方向 <br/>
+        <strong>Q, E:</strong> 操控镜头垂直移动方向 <br/>
+        <br/>
+        <strong>锚点位置: </strong>: <span id="positionField"></span><br/>
+        <strong>方向: </strong>: <span id="orientationField"></span><br/>
+        <br/><br/>
+        <button id="nextButton" onclick="jumpNext()">下一个镜头</button>
+        <button id="prevButton" onclick="jumpPrevious()">前一个镜头</button>
+        <button id="homeButton" onclick="jumpHome()">初始</button>
+        <button id="backButton" onclick="jumpBack()">返回</button>
+        <br/>
+        <button id="stopButton" onclick="stopRendering()">停止渲染</button>
+        <button id="startButton" onclick="startRendering()">开始渲染</button>
+        <br/>
+        <strong>时间</strong>: <input id="dayTimeSlider" type="range" value="0.56197" min="0.0" max="1.0" step="0.000001" class="slider" onmousedown="event.stopPropagation()" ontouchstart="event.stopPropagation()"/>
+        <div id="debugOutput" />
+    </div>
+    <script>
+        /*
+        setTimeout(function(){ startIdleMode(); }, 3000);
+
+        function restartIdle() {
+
+            setTimeout(function(){ startIdleMode(); }, 3000);
+
+        }
+        */
+    </script>
+</body>
+</html>
