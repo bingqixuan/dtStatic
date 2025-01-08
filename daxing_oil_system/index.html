@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/3d_index.css" />
+    <link rel="stylesheet" href="./css/h5splayer.css" />
+    <script src="./js/main.js"></script>
+    <script src="./js/util/THREEx.KeyboardState.js"></script>
+    <script src="./js/util/flv.min.js"></script>
+    <script src="./js/util/jquery-3.4.1.min.js"></script>
+    <script src="./js/util/sockjs.min.js"></script>
+    <script src="./js/util/stomp.min.js"></script>
+    <script src="./js/util/reconnecting-websocket.min.js"></script>
+    <script src="./js/util/adapter.js"></script>
+    <script src="./js/util/platform.js"></script>
+    <script src="./js/util/h5splayer.js"></script>
+    <script src="./js/util/h5splayerhelper.js"></script>
+    <!-- <script src="./js/util/ammo.js"></script> -->
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      .t-canvas {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+      }
+      .btnBox {
+        width: 100%;
+        height: 120px;
+        position: absolute;
+        bottom: 1px;
+        z-index: 99999;
+        background-image: url(./textures/bg框.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        text-align: center;
+      }
+      .btnClass {
+        display: inline-block;
+        margin-top: 35px;
+        width: 160px;
+        height: 47px;
+        line-height: 47px;
+        cursor: pointer;
+        color: #fff;
+        position: relative;
+      }
+      .highLight {
+        background-color: #5eadf1 !important;
+        color: #0054d0 !important;
+        margin-top: 34px !important;
+        width: 158px !important;
+        height: 45px !important;
+        border: 1px solid #fff !important;
+      }
+      .msk {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999999;
+      }
+      .shebeiTop {
+        display: none;
+        position: absolute;
+        top: -233px;
+        left: 27.5%;
+        width: 20%;
+        height: 230px;
+        background-color: #222;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      .shebeiChild {
+        width: 100%;
+        height: 25px;
+        line-height: 25px;
+        padding: 10px 0 0 30px;
+        color: #fff;
+        text-align: left;
+      }
+      .searchInput {
+        display: none;
+        position: absolute;
+        top: -205px;
+        left: 52.5%;
+        width: 20%;
+        height: 200px;
+        background-color: #222;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+
+      .searchInner {
+        width: 54%;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 0 0 7%;
+        margin-left: 1%;
+        margin-top: 20px;
+        border: 1px solid #fff;
+        background-color: rgba(1, 1, 1, 0.1);
+        color: #fff;
+      }
+
+      .searchBox {
+        width: 90%;
+        height: 80px;
+        margin-top: 5px;
+        margin-left: 5%;
+        overflow-y: auto;
+      }
+
+      .searchBtn {
+        color: #fff;
+        border: 1px solid #fff;
+        width: 50px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 5px;
+        display: inline-block;
+        background-color: #0155d2;
+        cursor: pointer;
+        position: relative;
+        top: 2px;
+        left: 2px;
+      }
+
+      .textInner {
+        width: 94%;
+        height: 25px;
+        line-height: 25px;
+        color: #fff;
+        cursor: pointer;
+        overflow: hidden;
+        font-size: 11px;
+        text-indent: left;
+        margin-left: 10px;
+      }
+
+      .textInner:hover {
+        color: #0054d0;
+        background-color: #5eadf1;
+      }
+
+      .firstBtn {
+        background-image: url("./textures/视角方向未选中.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+
+      .firstBtnNo {
+        background-image: url("./textures/视角方向 .png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+
+      .middleBtn {
+        background-color: #0054d0;
+      }
+
+      .endsBtn {
+        background-image: url("./textures/管线工艺.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+
+      .endsBtnNo {
+        background-image: url("./textures/管线工艺 选中.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+
+      .handFindLayer {
+        display: none;
+        width: 300px;
+        height: 381px;
+        position: absolute;
+        top: -415px;
+        left: -70px;
+      }
+
+      .handFindCenter {
+        width: 265px;
+        height: 310px;
+        background-image: url("./textures/视角方向框.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-left: 17px;
+        overflow: hidden;
+        cursor: auto;
+      }
+
+      .bottomStyle {
+        width: 300px;
+        height: 77px;
+        background-image: url("./textures/链接.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        cursor: auto;
+      }
+
+      .handFindInner {
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        background-color: #1c4b8d;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        margin: 13px 57px;
+        cursor: pointer;
+      }
+
+      .handFindInner:hover {
+        color: #0054d0;
+        background-color: #5eadf1;
+      }
+
+      .shebeiLayer {
+        display: none;
+        width: 300px;
+        height: 454px;
+        position: absolute;
+        top: -481px;
+        left: -70px;
+      }
+
+      .shabeiCenter {
+        width: 200px;
+        height: 377px;
+        background-image: url("./textures/安全管理框.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-left: 50px;
+        overflow: hidden;
+        cursor: auto;
+      }
+
+      .shebeiText {
+        display: inline-block;
+        width: 100px;
+      }
+
+      .imgCheck {
+        position: relative;
+        top: 4px;
+        width: 20px;
+        height: 20px;
+      }
+
+      .colorSHOUDONG {
+        color: #0054d0;
+      }
+
+      .searchLayer {
+        display: none;
+        width: 300px;
+        height: 237px;
+        position: absolute;
+        top: -264px;
+        left: -70px;
+      }
+
+      .searchCenter {
+        width: 265px;
+        height: 160px;
+        background-image: url("./textures/设备搜索框.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-left: 17px;
+        overflow: hidden;
+        cursor: auto;
+      }
+
+      .videoSforCamera {
+        width: 264px;
+        height: 240px;
+        background-image: url("./textures/设备搜索框.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .myvideoContent {
+        width: 220px;
+        height: 150px;
+        margin: 60px 0 0 22px;
+      }
+
+      .oliLeft {
+        width: 264px;
+        height: auto;
+        vertical-align: top;
+        display: inline-block;
+        margin-right: 10px;
+        background-image: url("./textures/弹窗1框.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 15px;
+      }
+
+      .oliRight {
+        width: 264px;
+        height: auto;
+        margin-left: 30px;
+        vertical-align: top;
+        display: inline-block;
+        margin-left: 10px;
+        background-image: url("./textures/background.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 15px;
+      }
+
+      .myVideoCla {
+        width: 100%;
+        height: 100%;
+      }
+
+      .iframe3D {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .btnBoxMsk {
+        width: 100%;
+        height: 120px;
+        position: absolute;
+        bottom: 1px;
+        z-index: 999999;
+      }
+    </style>
+
+    <title>大兴油库可视化系统</title>
+  </head>
+  <body>
+    <div class="msk" id="msk"></div>
+
+    <div class="btnBox">
+      <div class="btnClass firstBtn" id="handFind">
+        <span class="textLightColor">视角方向</span>
+        <div class="handFindLayer">
+          <div class="handFindCenter">
+            <div class="handFindInner" style="margin-top: 30px">主动漫游</div>
+            <div class="handFindInner">2D</div>
+            <div class="handFindInner">东</div>
+            <div class="handFindInner">西</div>
+            <div class="handFindInner">南</div>
+            <div class="handFindInner">北</div>
+          </div>
+          <div class="bottomStyle"></div>
+        </div>
+      </div>
+      <div class="btnClass middleBtn" id="shebeiOut">
+        设备管理
+        <div class="shebeiLayer">
+          <div class="shabeiCenter">
+            <div class="shebeiChild" style="margin-top: 23px">
+              <input type="checkbox" name="check" value="可燃气" />
+              <span class="shebeiText">可燃气</span>
+              <img src="./textures/可燃气S.png" alt="" class="imgCheck" />
+            </div>
+            <div class="shebeiChild">
+              <input type="checkbox" name="check" value="消防" />
+              <span class="shebeiText">消防手报</span>
+              <img src="./textures/消防手报S.png" alt="" class="imgCheck" />
+            </div>
+            <div class="shebeiChild">
+              <input type="checkbox" name="check" value="阀控" />
+              <span class="shebeiText">SIS阀</span>
+              <img src="./textures/SIS阀S.png" alt="" class="imgCheck" />
+            </div>
+            <div class="shebeiChild">
+              <input type="checkbox" name="check" value="高液位" />
+              <span class="shebeiText">高高液位</span>
+              <img src="./textures/高高液位S.png" alt="" class="imgCheck" />
+            </div>
+            <div class="shebeiChild">
+              <input type="checkbox" name="check" value="低液位" />
+              <span class="shebeiText">低低液位</span>
+              <img src="./textures/低液位S.png" alt="" class="imgCheck" />
+            </div>
+            <div class="shebeiChild">
+              <input type="checkbox" name="check" value="摄像头" />
+              <span class="shebeiText">视频监控</span>
+              <img src="./textures/摄像头 (1)S.png" alt="" class="imgCheck" />
+            </div>
+            <div class="shebeiChild">
+              <input
+                type="checkbox"
+                name="check"
+                checked="checked"
+                value="鹤位"
+              />
+              <span class="shebeiText">鹤位</span>
+              <img src="./textures/鹤位S.png" alt="" class="imgCheck" />
+            </div>
+            <div class="shebeiChild">
+              <input
+                type="checkbox"
+                name="check"
+                checked="checked"
+                value="油罐"
+              />
+              <span class="shebeiText">油罐</span>
+              <img src="./textures/油罐S.png" alt="" class="imgCheck" />
+            </div>
+            <div class="shebeiChild">
+              <input type="checkbox" name="check" value="报警" />
+              <span class="shebeiText">火灾报警</span>
+              <img
+                src="./textures/报警,警报,报警灯,危险S.png"
+                alt=""
+                class="imgCheck"
+              />
+            </div>
+          </div>
+          <div class="bottomStyle"></div>
+        </div>
+      </div>
+      <div class="btnClass middleBtn" id="searchOut">
+        设备搜索
+        <div class="searchLayer">
+          <div class="searchCenter">
+            <input type="text" class="searchInner" id="searchInner" />
+            <div class="searchBtn" id="searchBtn">搜索</div>
+            <div class="searchBox" id="searchBox"></div>
+          </div>
+          <div class="bottomStyle"></div>
+        </div>
+      </div>
+      <div class="btnClass endsBtn" id="lineChange">
+        <span class="lineColor">管线工艺</span>
+      </div>
+    </div>
+
+    <div class="btnBoxMsk"></div>
+
+    <canvas class="t-canvas"></canvas>
+    <script src="./js/apiHttp.js"></script>
+    <script src="./js/container.js"></script>
+  </body>
+</html>
