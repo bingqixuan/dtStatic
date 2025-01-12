@@ -1,0 +1,79 @@
+.planeView {
+  width: auto;
+  height: auto;
+}
+
+.planeView > .popup-close {
+  /* top: 10px !important;
+  right: 10px !important; */
+  pointer-events: visible;
+}
+
+#planeViewBox {
+  width: auto;
+  height: auto;
+  background-image: url(../textures/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.heweiPading {
+  padding: 25px;
+}
+
+.selfWran {
+  width: auto;
+  height: auto;
+  background-image: url(../textures/backgroundRed.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px;
+}
+
+.oliLeftHW {
+  width: auto;
+  height: auto;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.oliRightHW {
+  width: auto;
+  height: auto;
+  margin-left: 30px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.oliline {
+  /* display: inline-block; */
+  color: #fff;
+  line-height: 25px;
+}
+
+.liskView {
+  color: #fff;
+  text-decoration: underline;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.contentBox {
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+
+.videoWranBox {
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+
+.oliLeftHead {
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #50c8ff;
+  line-height: 35px;
+}
