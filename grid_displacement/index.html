@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>网格位移纹理效果</title>
+    <script>document.documentElement.className="js";</script>
+    <script>
+      window.addEventListener('load', function() {
+        const image = document.querySelector('.image-container img');
+
+        // Check if the image is already fully loaded
+        if (image.complete) {
+          removeLoadingClass();
+        } else {
+          image.addEventListener('load', removeLoadingClass);
+        }
+
+        function removeLoadingClass() {
+          // Remove the "loading" class from the body
+          document.body.classList.remove('loading');
+        }
+      });
+    </script>
+    <script type="module" crossorigin src="./assets/index-CF0FvG3W.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-n07Hq5up.css">
+  </head>
+  <body class="loading">
+    <div id="app">
+      <div class="container">
+        <div class="wrapper">
+          <div class="image-container">
+            <img src="./image.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <canvas id="webgl"></canvas>
+  </body>
+</html>
