@@ -1,0 +1,284 @@
+@font-face {
+  font-family: 'shishangzhongheijianti';
+  /*字体名称*/
+  src: url('../assets/时尚中黑简体.ttf');
+  /*字体源文件*/
+}
+
+* {
+  font-family: shishangzhongheijianti;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.modal .modal-dialog {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+
+.modal .modal-dialog .title {
+  width: 348px;
+  height: 52px;
+  background: url('../img/监控_标头@2x.png') no-repeat center center;
+  background-size: cover;
+  padding-left: 45px;
+}
+
+.modal .modal-dialog .title .closeDialog {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 12px;
+  top: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.modal .modal-dialog .title .word {
+  font-size: 24px;
+  line-height: 52px;
+  text-align: left;
+  color: #fff;
+}
+
+.modal .modal-dialog .content {
+  width: 343px;
+  margin-left: 2.5px;
+  height: 210px;
+  /* background-color: #fff; */
+  background-color: rgba(16, 16, 18, 0.8);
+  padding: 6px 14px;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.modal .modal-dialog video {
+  position: absolute;
+  left: 14px;
+  top: -2px;
+}
+
+.modal .modal-dialog .content .bottom {
+  position: absolute;
+  font-size: 12px;
+  color: #999;
+  text-align: right;
+  bottom: 0;
+  right: 14px;
+}
+
+.phone_dialog,
+.phone_dialog2,
+.carMsgBox {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.phone_dialog .main,
+.phone_dialog2 .main,
+.carMsgBox .main {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.phone_dialog .main .title,
+.phone_dialog2 .main .title,
+.carMsgBox .main .title {
+  width: 348px;
+  height: 52px;
+  background: url('../img/监控_标头@2x.png') no-repeat center center;
+  background-size: cover;
+  padding-left: 45px;
+}
+
+.phone_dialog .main .title .word,
+.phone_dialog2 .main .title .word,
+.carMsgBox .main .title .word {
+  font-size: 24px;
+  line-height: 52px;
+  text-align: left;
+  color: #fff;
+}
+
+.phone_dialog .main .title .closeBtn,
+.phone_dialog2 .main .title .closeBtn,
+.carMsgBox .main .title .closeBtn {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 12px;
+  top: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.phone_dialog .main .content {
+  width: 343px;
+  margin: 2px 0 0 2.5px;
+  height: 368px;
+  background-color: rgba(16, 16, 18, 0.8);
+}
+
+.phone_dialog .main .content .pic_head {
+  margin: 20px 112px 0;
+}
+
+.phone_dialog2 .main .content .pic_head {
+  margin: 20px 92px 0;
+}
+
+.phone_dialog .main .content .name,
+.phone_dialog2 .main .content .name {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.phone_dialog .main .content .calling {
+  text-align: center;
+  font-size: 12px;
+  color: #b3b3b3;
+  margin-top: 80px;
+}
+
+.phone_dialog2 .main .content .calling {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.phone_dialog .main .content .pic_call {
+  margin: 10px 138px 0;
+  cursor: pointer;
+}
+
+.phone_dialog2 .main .content .pic_call {
+  margin: 10px 119px 0;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.phone_dialog2 .main .content {
+  width: 343px;
+  margin: 2px 0 0 2.5px;
+  height: 490px;
+  background-color: rgba(16, 16, 18, 0.8);
+  padding: 0 20px;
+}
+
+.phone_dialog2 .main .content .msg ul {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.phone_dialog2 .main .content .msg ul li {
+  float: left;
+  width: 50%;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.phone_dialog2 .main .content .msg ul li:nth-child(2n) {
+  padding-left: 18px;
+}
+
+.phone_dialog2 .main .content .msg ul li span:first-child {
+  color: #b3b3b3;
+}
+
+.phone_dialog2 .main .content .msg ul li span:last-child {
+  color: #00ffff;
+}
+
+.phone_dialog2 .main .content .inTime {
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.phone_dialog2 .main .content .inTime span:first-child {
+  color: #b3b3b3;
+}
+
+.phone_dialog2 .main .content .inTime span:last-child {
+  color: #fff;
+  float: right;
+}
+
+.carMsgBox .main .content {
+  width: 343px;
+  margin: 2px 0 0 2.5px;
+  height: 208px;
+  background-color: rgba(16, 16, 18, 0.8);
+  padding: 10px 20px;
+}
+
+.carMsgBox .main .content .tip {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.carMsgBox .main .content .numList {
+  width: 100%;
+  overflow: hidden;
+  margin-block-end: 20px;
+}
+
+.carMsgBox .main .content .numList ul li {
+  float: left;
+  width: 33px;
+  height: 50px;
+  background: url('../img/bgnum.png') no-repeat center center;
+  background-size: cover;
+  margin-left: 21px;
+  text-align: center;
+  line-height: 50px;
+  color: #00ffff;
+  font-size: 20px;
+}
+
+.carMsgBox .main .content .numList ul li:first-child {
+  margin-left: 0;
+}
+
+.carMsgBox .main .content .msglist ul li {
+  float: left;
+  width: 50%;
+  line-height: 40px;
+  font-size: 12px;
+}
+
+.carMsgBox .main .content .msglist ul li:nth-child(2n) {
+  padding-left: 20px;
+}
+
+.carMsgBox .main .content .msglist ul li span:first-child {
+  color: #b3b3b3;
+}
+
+.carMsgBox .main .content .msglist ul li span:last-child {
+  color: #00ffff;
+}

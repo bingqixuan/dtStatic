@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>红柳林煤矿</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="./css/main.css" />
+	<link rel="Shortcut Icon" href="train.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="./css/modal.css">
+	<style>
+		@font-face {
+            font-family: 'shishangzhongheijianti';   /*字体名称*/
+            src: url('assets/%E6%97%B6%E5%B0%9A%E4%B8%AD%E9%BB%91%E7%AE%80%E4%BD%93.ttf');       /*字体源文件*/
+        }
+
+		body {
+			background-color: #f0f0f0;
+			color: #444;
+			overflow: hidden;
+			background: url('img/bg.jpg') no-repeat center center;
+			background-size: cover;
+			width: 100%;
+			height: 100%;
+		}
+
+		a {
+			color: #08f;
+		}
+
+		button {
+			display: block;
+			margin-top: 10px;
+		}
+
+		.top {
+			height: 50px;
+			width: 1251px;
+			/*background: url('./img/top_bg@2x.png') no-repeat center center;*/
+			background-size: contain;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			text-align: center;
+			box-sizing: border-box;
+		}
+
+		.top div:first-child {
+			font-size: 26px;
+			font-family: Microsoft YaHei;
+			font-weight: 400;
+			color: #FFFFFF;
+			margin-top: 18px;
+			margin-bottom: 5px;
+		}
+
+		.top div:last-child {
+			font-size: 11px;
+			font-family: Heiti SC;
+			font-weight: 300;
+			color: #FFFFFF;
+			line-height: 20px;
+		}
+
+		.tag {
+			position: absolute;
+			color: #007AFF;
+			/* pointer-events: none;  允许标签点透，进行鼠标操作 */
+			cursor: pointer;
+		}
+
+		.tag:hover {
+			color: #00ff00;
+		}
+
+		.tag .tagname {
+			position: relative;
+			top: -80px;
+			left: -25px;
+		}
+
+		.tag .tagname .icon{
+			height: 50px;
+			float: left;
+		}
+
+		.tag .tagname .car{
+			position: absolute;
+			left: 0;
+			top: -24px;
+		}
+
+		.tag .tagname .light{
+			width: 14px;
+			height: 14px;
+			background:green;
+			box-shadow: 0 0 20px #111 inset, 0 0 10px lime;
+			border-radius: 50%;
+			position: absolute;
+			left: 50%;
+			top: -45px;
+			transform: translateX(-50%);
+		}
+
+		.tag .tagname .lightRed{
+			background: red;
+			box-shadow: 0 0 20px #111 inset, 0 0 10px red;
+		}
+
+		.tag .tagname .title{
+			background: url("img/wordbg.png") no-repeat center center;
+			background-size: contain;
+			font-family: shishangzhongheijianti;
+			/* min-height: 50px; */
+			position: absolute;
+			width: 100px;
+			top: 10px;
+			left: 36px;
+			text-align: center;
+			color: #FFFFFF;
+			box-sizing: border-box;
+			/* padding: 5px 10px; */
+			line-height: 30px;
+			height: 30px;
+			cursor: pointer;
+		}
+
+		.tag .tagname .red{
+			background: url("img/name_red@2x.png") no-repeat center center;
+			background-size: contain;
+		}
+
+		.tag .tagname .morewords{
+			line-height: 15px;
+			text-align: left;
+			padding: 4px 10px;
+			top: 6px;
+			left: 40px;
+			height: 38px;
+		}
+		.camera {
+			position: absolute;
+			left: 50px;
+			top: 50px;
+			width: 50px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			background-color: #007aff;
+			color: #FFFFFF;
+		}
+
+		.carBox {
+			width: 10px;
+			height: 10px;
+			background-color: #fff;
+		}
+
+		.enterBox {
+			position: absolute;
+			top: -32px;
+			left: 0px;
+			width: 160px;
+			color: #fff;
+			font-size: 40px;
+			text-shadow:0 0 5px #fff,
+                     0 0 10px #fff,
+                     0 0 15px #fff,
+                     0 0 20px #00533e,
+                     0 0 35px #00533e,
+                     0 0 40px #00533e,
+                     0 0 50px #00533e,
+					 0 0 75px #00533e;
+			z-index: 99;
+		}
+
+		.hide {
+			display: none;
+		}
+	</style>
+  <script type="module" crossorigin src="./assets/index-Bt6aymVx.js"></script>
+</head>
+
+<body>
+	<!-- <div id="getPosition" class="camera">俯瞰</div> -->
+
+	<div id="tip" class="tag" >
+		<div class="tagname" >
+			<span class="icon" >
+				<img height="80px" width="50px" src="./img/fengji_normal@2x.png" alt="">
+			</span>
+			<span class="title morewords">3-1煤回风大巷</span>
+		</div>
+	</div>
+	<div id="tip2" class="tag">
+		<div class="tagname">
+			<div class="enterBox enter hide">点击进入</div>
+			<span class="icon"><img height="80px" width="50px" src="./img/camera_normal@2x.png" alt=""></span>
+			<span class="title morewords">44203<br>综采工作面</span>
+		</div>
+	</div>
+	<div id="tip3" class="tag">
+		<div class="tagname">
+			<div class="enterBox enter1 hide">点击进入</div>
+			<span class="icon"><img height="80px" width="50px" src="./img/caimeiji_normal@2x.png" alt=""></span>
+			<span class="title morewords">15214<br>综采工作面</span>
+		</div>
+	</div>
+	<div id="tip4" class="tag">
+		<div class="tagname">
+			<div class="enterBox enter2 hide">点击进入</div>
+			<span class="icon"><img height="80px" width="50px" src="./img/caimeiji_normal@2x.png" alt=""></span>
+			<span class="title morewords">25210<br>综采工作面</span>
+		</div>
+	</div>
+	<div id="tip5" class="tag">
+		<div class="tagname">
+			<span class="icon"><img height="80px" width="50px" src="./img/water_normal@2x.png" alt=""></span>
+			<span class="title">水泵房</span>
+		</div>
+	</div>
+	<div id="tip6" class="tag">
+		<div class="tagname">
+			<span class="icon"><img height="80px" width="50px" src="./img/camera_normal@2x.png" alt=""></span>
+			<span class="title">变电所</span>
+		</div>
+	</div>
+	<div id="tip7" class="tag">
+		<div class="tagname">
+			<div class="enterBox enter3 hide">点击进入</div>
+			<span class="icon"><img height="80px" width="50px" src="./img/electric_normal@2x.png" alt=""></span>
+			<span class="title">中央变电所</span>
+		</div>
+	</div>
+	<div id="tip8" class="tag">
+		<div class="tagname">
+			<div class="enterBox enter4 hide">点击进入</div>
+			<span class="icon"><img height="80px" width="50px" src="./img/water_normal@2x.png" alt=""></span>
+			<span class="title">中央水泵房</span>
+		</div>
+	</div>
+	<div id="tip9" class="tag">
+		<div class="tagname">
+			<span class="icon"><img height="80px" width="50px" src="./img/electric_normal@2x.png" alt=""></span>
+			<span class="title morewords">北二盘区4-2<br>煤变电所</span>
+		</div>
+	</div>
+	<div id="tip10" class="tag">
+		<div class="tagname">
+			<span class="icon"><img height="80px" width="50px" src="./img/electric_normal@2x.png" alt=""></span>
+			<span class="title">变电所</span>
+		</div>
+	</div>
+	<div id="tip11" class="tag">
+		<div class="tagname">
+			<div class="enterBox enter5 hide">点击进入</div>
+			<span class="icon"><img height="80px" width="50px" src="./img/fengji_normal@2x.png" alt=""></span>
+			<span class="title">通风</span>
+		</div>
+	</div>
+	<div id="tip12" class="tag">
+		<div class="tagname">
+			<span class="icon"><img height="80px" width="50px" src="./img/fengji_normal@2x.png" alt=""></span>
+			<span class="title">回风联巷</span>
+		</div>
+	</div>
+	<div id="tip13" class="tag">
+		<div class="tagname">
+			<span class="icon"><img height="80px" width="50px" src="./img/phone2@2x.png" alt=""></span>
+			<span class="title morewords red">一号胶带搭接硐室</span>
+		</div>
+	</div>
+
+	<div id="tip14" class="tag">
+		<div class="tagname">
+			<span class="icon"><img height="80px" width="50px" src="./img/bottom.png" alt=""></span>
+			<span class="icon car"><img height="20px" width="50px" src="./img/car1.png" alt=""></span>
+			<div class="light"></div>
+		</div>
+	</div>
+	<!-- <div class="tag carBox" id="car2"></div> -->
+	<div id="tip15" class="tag">
+		<div class="tagname">
+			<span class="icon"><img height="80px" width="50px" src="./img/bottom.png" alt=""></span>
+			<span class="icon car"><img height="20px" width="50px" src="./img/car2.png" alt=""></span>
+			<div class="light"></div>
+		</div>
+	</div>
+	<!-- <div class="tag carBox" id="car3"></div> -->
+	<div id="tip16" class="tag">
+		<div class="tagname">
+			<span class="icon"><img height="80px" width="50px" src="./img/bottom.png" alt=""></span>
+			<span class="icon car"><img height="20px" width="50px" src="./img/car1.png" alt=""></span>
+			<div class="light"></div>
+		</div>
+	</div>
+	<!-- <div class="tag carBox" id="car4"></div> -->
+	<div id="tip17" class="tag">
+		<div class="tagname">
+			<span class="icon"><img height="80px" width="50px" src="./img/bottom.png" alt=""></span>
+			<span class="icon car"><img height="20px" width="50px" src="./img/car2.png" alt=""></span>
+			<div class="light lightRed"></div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="title">
+				<span class="word">44203综采工作面</span>
+				<img src="./img/camera_close@2x.png" class="closeDialog" alt="">
+			</div>
+			<div class="content">
+				<video src="/video/44203工作面（采煤过程）.mp4" width="314px" height="200px" autoplay loop></video>
+				<div class="bottom" id="datetime"></div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="title">
+				<span class="word">变电所</span>
+				<img src="./img/camera_close@2x.png" class="closeDialog" alt="">
+			</div>
+			<div class="content">
+				<video src="/video/南二盘一号变电所.mp4" width="314px" height="200px" autoplay loop></video>
+				<div class="bottom" id="datetime1"></div>
+			</div>
+		</div>
+	</div>
+	<div class="phone_dialog hide">
+		<div class="main">
+			<div class="title">
+				<span class="word">一号胶带搭接硐室</span>
+				<img src="./img/camera_close@2x.png" class="closeBtn" alt="">
+			</div>
+			<div class="content">
+				<img class="pic_head" width="119px" height="119px" src="./img/avator@2x.png" alt="">
+				<div class="name">工作人员1#</div>
+				<div class="calling">正在呼叫...</div>
+				<img class="pic_call" width="66px" height="66px" src="./img/close@2x.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="phone_dialog2 hide">
+		<div class="main">
+			<div class="title">
+				<span class="word">一号胶带搭接硐室</span>
+				<img src="./img/camera_close@2x.png" class="closeBtn" alt="">
+			</div>
+			<div class="content">
+				<img class="pic_head" width="119px" height="119px" src="./img/avator@2x.png" alt="">
+				<div class="name">工作人员1#</div>
+				<hr>
+				<div class="msg">
+					<ul>
+						<li>
+							<span>卡号：</span>
+							<span>1919</span>
+						</li>
+						<li>
+							<span>班次：</span>
+							<span>零点班</span>
+						</li>
+						<li>
+							<span>工种：</span>
+							<span>1919</span>
+						</li>
+						<li>
+							<span>设备短标签：</span>
+							<span>020A102</span>
+						</li>
+					</ul>
+					<div class="inTime">
+						<span>入井下时间：</span>
+						<span>2020-10-10 07：48：42</span>
+					</div>
+					<div class="inTime">
+						<span>当前进入时间：</span>
+						<span>2020-10-10 08：35：59</span>
+					</div>
+				</div>
+				<div class="calling" id="callTiming"></div>
+				<img class="pic_call" width="66px" height="66px" src="./img/close@2x.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class="carMsgBox hide">
+		<div class="main">
+			<div class="title">
+				<span class="word carName">车辆9719信息</span>
+				<img src="./img/camera_close@2x.png" class="closeBtn" alt="">
+			</div>
+			<div class="content">
+				<div class="tip">车牌号：</div>
+				<div class="numList">
+					<ul>
+						<li>红</li>
+						<li class="num1">0</li>
+						<li class="num2">0</li>
+						<li class="num3">0</li>
+						<li class="num4">0</li>
+						<li class="num5">0</li>
+					</ul>
+				</div>
+				<div class="msglist">
+					<ul>
+						<li>
+							<span>车载人数：</span>
+							<span class="carMen">6人</span>
+						</li>
+						<li>
+							<span>车速：</span>
+							<span class="carSpeed">27 公里/小时</span>
+						</li>
+						<li>
+							<span>所属部门：</span>
+							<span class="carType">本矿车辆</span>
+						</li>
+						<li>
+							<span>备注：</span>
+							<span>4772</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/modal.js"></script>
+	<script src="./js/Tween.min.js"></script>
+</body>
+</html>

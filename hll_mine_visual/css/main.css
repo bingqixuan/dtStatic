@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	font-family: Monospace;
+	font-size: 13px;
+	line-height: 24px;
+	overscroll-behavior: none;
+}
+
+a {
+	color: #ff0;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+canvas {
+	display: block;
+}
+
+#info {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1;
+	/* TODO Solve this in HTML */
+}
+
+a,
+button,
+input,
+select {
+	pointer-events: auto;
+}
+
+.dg.ac {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	z-index: 2 !important;
+	/* TODO Solve this in HTML */
+}
+
+#overlay {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+#overlay button {
+	background: #ffffff;
+	border: 0;
+	color: #000000;
+	padding: 16px 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#notSupported {
+	width: 50%;
+	margin: auto;
+	background-color: #f00;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+
+.sk-wave {
+	width: 6em;
+	height: 4em;
+	margin: auto;
+	text-align: center;
+	font-size: 1em;
+}
+
+.sk-wave .sk-rect {
+	background-color: #8f9295;
+	height: 100%;
+	width: .5em;
+	display: inline-block;
+	-webkit-animation: sk-wave-stretch-delay 1.2s infinite ease-in-out;
+	animation: sk-wave-stretch-delay 1.2s infinite ease-in-out;
+}
+
+.sk-wave .sk-rect-1 {
+	-webkit-animation-delay: -1.2s;
+	animation-delay: -1.2s;
+}
+
+.sk-wave .sk-rect-2 {
+	-webkit-animation-delay: -1.1s;
+	animation-delay: -1.1s;
+}
+
+.sk-wave .sk-rect-3 {
+	-webkit-animation-delay: -1s;
+	animation-delay: -1s;
+}
+
+.sk-wave .sk-rect-4 {
+	-webkit-animation-delay: -0.9s;
+	animation-delay: -0.9s;
+}
+
+.sk-wave .sk-rect-5 {
+	-webkit-animation-delay: -0.8s;
+	animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-wave-stretch-delay {
+
+	0%,
+	40%,
+	100% {
+		-webkit-transform: scaleY(0.4);
+		transform: scaleY(0.4);
+	}
+
+	20% {
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+	}
+}
+
+@keyframes sk-wave-stretch-delay {
+
+	0%,
+	40%,
+	100% {
+		-webkit-transform: scaleY(0.4);
+		transform: scaleY(0.4);
+	}
+
+	20% {
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+	}
+}
+
+/* 控制面板 */
+.control_box {
+	position: fixed;
+	top: 60px;
+	padding: 0 10px;
+	color: #fff;
+}
+
+.control_box div {
+	color: #fff;
+    background: #0076FF;
+    box-shadow: 0 2px 4px 0 rgba(0, 118, 255, 0.50);
+    border-radius: 4px;
+    border: none;
+	margin-right: 15px;
+    margin-bottom: 15px;
+    position: relative;
+	height: 36px;
+    line-height: 36px;
+    width: 100px;
+    text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.control_box div:hover {
+	background-color: #000aff;
+	cursor: pointer;
+}
