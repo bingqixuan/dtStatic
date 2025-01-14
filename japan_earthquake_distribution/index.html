@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <title>日本震源分布</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <style>
+    body {
+      background-color: #000000;
+      margin: 0px;
+      overflow: hidden;
+      font-family:Sans-Serif;
+      font-size:16px;
+      text-align:center;
+      font-weight: bold;
+    }
+    #info {
+      color:#ffffff;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      padding: 5px;
+      z-index:100;
+    }
+    #colorlegend {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
+  </style>
+  <script type="module" crossorigin src="./assets/index-B7oJVSCi.js"></script>
+</head>
+<body>
+  <div id="info">
+    2017 - 2021 日本震级大于1.5的部分震源位置分布（数量约5万）
+  </div>
+  <img src="./images/hypo_3d_color_legend.png" id="colorlegend">
+
+  <script src="./js/three.min.js"></script>
+  <script src="./js/controls/TrackballControls.js"></script>
+
+</body>
+</html>

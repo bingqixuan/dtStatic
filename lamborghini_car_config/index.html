@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <!-- The app title -->
+    <title>兰博基尼汽车展示</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Overlay Preloader Element -->
+    <div id="preloader" class="loader overlay">
+        <div class="wrapper">
+            <div class="icon"></div>
+            <p class="title no-select">- 加载中 -</p>
+            <p class="desc no-select"></p>
+            <button id="btn-start-demo" class="btn-main">开始</button>
+        </div>
+    </div>
+
+    <!-- Screen Fader -->
+    <div id="screen-fader" class="screen-fader overlay"></div>
+
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="ws overlay">
+        <div class="wrapper">
+            <h1 class="no-select">兰博基尼 Aventador</h1>
+            <h3 class="no-select">自定义配置</h3>
+            <button id="btn-skip-intro">跳过介绍</button>
+        </div>
+    </div>
+
+    <!-- Development Environment JS Path -->
+    <script src="js/app.build.js"></script>
+
+</body>
+
+</html>
