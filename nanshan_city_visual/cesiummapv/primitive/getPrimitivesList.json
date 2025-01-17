@@ -1,0 +1,25 @@
+{
+  "code": 1,
+  "msg": "",
+  "time": "1656243603",
+  "data": [
+    {
+      "id": 4,
+      "name": "旋转锥子",
+      "url": "./model/pyramid.glb",
+      "showswitch": 1,
+      "color": "rgba(59, 237, 207, 0.45)",
+      "colorModelist": "REPLACE",
+      "duration": 19,
+      "rotateSpeed": 6,
+      "latRotation": 3.76,
+      "positionLon": 113.93321990966797,
+      "positionLat": 22.517576217651367,
+      "height": 420,
+      "scale": 200,
+      "minimumPixelSize": 20,
+      "createtime": 1636531685,
+      "updatetime": 1636531777
+    }
+  ]
+}

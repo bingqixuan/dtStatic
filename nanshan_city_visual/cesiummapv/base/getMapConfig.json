@@ -1,0 +1,163 @@
+{
+  "code": 1,
+  "msg": "",
+  "time": "1656243601",
+  "data": [
+    {
+      "id": 41,
+      "name": "baseLayerPicker",
+      "group": "map_config",
+      "title": "基础影响图层选择器",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 42,
+      "name": "navigationHelpButton",
+      "group": "map_config",
+      "title": "导航帮助按钮",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 43,
+      "name": "animation",
+      "group": "map_config",
+      "title": "动画控件",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 44,
+      "name": "timeline",
+      "group": "map_config",
+      "title": "时间控件",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 45,
+      "name": "shadows",
+      "group": "map_config",
+      "title": "显示阴影",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 46,
+      "name": "shouldAnimate",
+      "group": "map_config",
+      "title": "大气模型动画效果",
+      "tip": "",
+      "type": "switch",
+      "value": "1",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 47,
+      "name": "skyBox",
+      "group": "map_config",
+      "title": "天空盒",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 48,
+      "name": "infoBox",
+      "group": "map_config",
+      "title": "信息提示框",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 49,
+      "name": "fullscreenButton",
+      "group": "map_config",
+      "title": "是否显示全屏按钮",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 50,
+      "name": "logo",
+      "group": "map_config",
+      "title": "显示cesiumLogo",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 51,
+      "name": "homeButton",
+      "group": "map_config",
+      "title": "首页按钮",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 52,
+      "name": "sceneModePicker",
+      "group": "map_config",
+      "title": "展示视角切换按钮",
+      "tip": "",
+      "type": "switch",
+      "value": "1",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    },
+    {
+      "id": 66,
+      "name": "frontDebugger",
+      "group": "map_config",
+      "title": "是否为前端调试模式",
+      "tip": "",
+      "type": "switch",
+      "value": "0",
+      "content": "",
+      "rule": "",
+      "extend": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "msg": "",
+  "time": "1656243604",
+  "data": [
+    {
+      "id": 4,
+      "name": "深圳南山区大街道",
+      "url": "./tileset/sz_ns2/tileset.json",
+      "offset_x": 0,
+      "offset_y": 0,
+      "offset_z": 0,
+      "onswitch": 1,
+      "flytoswitch": 1,
+      "color": "rgba(255, 255, 255, 1)",
+      "effectswitch": 1,
+      "height": 260,
+      "effect_color": "#df16f1",
+      "createtime": 1626347087,
+      "updatetime": 1637372783
+    }
+  ]
+}
