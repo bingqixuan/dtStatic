@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>基于webgpu的水模拟</title>
+    <style>
+      body, html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      canvas {
+        width: 100%;
+        height: 100%;
+      }
+
+      #ui-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 300px;
+        margin: 20px;
+      }
+
+      #number-container {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 20px;
+        margin-right: 10px;
+        font-size: 15px;
+        width: 270px;
+      }
+
+      #debug-info {
+        position: fixed;
+      }
+      #howto-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 300px;
+        margin: 20px;
+        font-size: small;
+      }
+      #github-link {
+        position:fixed;
+        bottom: 0;
+        right: 0;
+      }
+      .github-icon {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        font-size: 40px;
+        color: black;
+      }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script type="module" crossorigin src="./assets/index-D9qdZfTR.js"></script>
+  </head>
+  <body>
+    <div id="ui-container">
+      <div>
+        <label>
+          <input type="checkbox" id="particle">
+          粒子状态
+        </label>
+      </div>
+      <div id="slider-container">
+        <label for="slider">容器宽度:</label>
+        <input type="range" id="slider" min="0" max="100" value="100" />
+        <span id="slider-value"></span>
+      </div>
+    </div>
+    <div id="number-container">
+      <b>仿真模式</b>
+      <form id="simulation-mode" style="display: flex; gap: 10px;">
+        <label><input type="radio" name="options" value="mlsmpm" checked>MLS-MPM</label><br>
+        <label><input type="radio" name="options" value="sph">SPH</label><br>
+      </form>
+      <b>粒子数量</b>
+      <form id="number-button">
+        <label><input type="radio" name="options" value="0"> 少量 (<span id="small-value"></span> 粒子)</label><br>
+        <label><input type="radio" name="options" value="1" checked> 中等 (<span id="medium-value"></span> 粒子)</label><br>
+        <label><input type="radio" name="options" value="2"> 大量 (<span id="large-value"></span> 粒子)</label><br>
+        <label><input type="radio" name="options" value="3"> 巨量 (<span id="very-large-value"></span> 粒子)</label><br>
+      </form>
+    </div>
+    <div id="howto-container">
+      <div> <b>拖拽</b> 旋转相机 </div>
+      <div> <b>滚轮</b> 缩放相机 </div>
+    </div>
+    <div id="debug-info">
+      <span id="error-reason">正在加载中...</span>
+    </div>
+    <canvas id="fluidCanvas"></canvas>
+  </body>
+</html>
