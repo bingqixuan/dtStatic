@@ -1,0 +1,330 @@
+[
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-111111111111", "code": "M1-1", "name": "M1-1", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7", "group": [
+        "b7444c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f05d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f06d5-0039-4eae-8c77-b8a9d7a6eace",
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84",
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0tyut-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0sdfs-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-a111112222", "code": "M1-2", "name": "M1-2", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7", "group": [
+        "b7444c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f06d5-0039-4eae-8c77-b8a9d7a6eace",
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+        "2d9f05d5-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84",
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0sdfs-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-3a1234545222", "code": "M1-3", "name": "M1-3", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7", "group": [
+        "b7444c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f06d5-0039-4eae-8c77-b8a9d7a6eace",
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84",
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0sdfs-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-1234567678", "code": "M1-4", "name": "M1-4", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7", "group": [
+        "2d9f06d5-0039-4eae-8c77-b8a9d7a6eace",
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84",
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0tyut-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0sdfs-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-77778888999", "code": "M1-5", "name": "M1-5", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7", "group": [
+        "2d9f06d5-0039-4eae-8c77-b8a9d7a6eace",
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84",
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0sdfs-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-66667778888", "code": "M1-6", "name": "M1-6", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7", "group": [
+        "2d9f06d5-0039-4eae-8c77-b8a9d7a6eace",
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84",
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-55556666777", "code": "M1-7", "name": "M1-7", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7", "group": [
+        "2d9f06d5-0039-4eae-8c77-b8a9d7a6eace",
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84",
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-44445555666", "code": "M1-8", "name": "M1-8", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7", "group": [
+        "b7444c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84",
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0tyut-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0sdfs-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-33334444555", "code": "M1-9", "name": "M1-9", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7", "group": [
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84",
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-22223333444", "code": "M1-10", "name": "M1-10", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7", "group": [
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84",
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-111112222233333", "code": "M2-1", "name": "M2-1", "packageTypeId": "2e0f716c-1d3b-47f8-9174-5a0d97a6b7f7", "group": [
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0sdfs-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fj-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-23445435456", "code": "M2-2", "name": "M2-2", "packageTypeId": "2e0f716c-1d3b-47f8-9174-5a0d97a6b7f7", "group": [
+  
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "2e0f716c-1d3b-47f8-9374-12212121223232", "code": "M2-3", "name": "M2-3", "packageTypeId": "2e0f716c-1d3b-47f8-9174-5a0d97a6b7f7", "group": [
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0sdfs-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+      ]
+    },
+    {
+      "id": "b7c91c4d-5930-41b0-g6f0-333333333333", "code": "M2-4", "name": "M2-4", "packageTypeId": "2e0f716c-1d3b-47f8-9174-5a0d97a6b7f7", "group": [
+        "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84",
+  
+        "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f08d5-0039-4eae-8c77-b8a9d7a61111",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f09d5-0039-4eae-8c77-b8a9d7a6e2333",
+  
+        "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f00d5-0039-4eae-8c77-b8a911111111",
+        "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace",
+  
+        "2d9f0457-0039-4eae-8c77-b8a9d7a6eace",
+        "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"
+  
+      ]
+    },
+    { "id": "b7c91c4d-5930-41b0-g6f0-c33333333333", "code": "轿架", "name": "轿架", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-d33333333333", "code": "轿厢", "name": "轿厢", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["b7c91c4d-5980-41b0-96f0-bd38e2d6d3af"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-g33333333333", "code": "主机", "name": "主机", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["2d9f00d5-0039-4eae-8c77-b8a9d7a6eace"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-a111111111111", "code": "层门头", "name": "层门头", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["b7444c4d-5980-41b0-96f0-bd38e2d6d3af"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-a2222222222222", "code": "地坎", "name": "地坎", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["2d9f05d5-0039-4eae-8c77-b8a9d7a6eace"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-a33333333333", "code": "层门", "name": "层门", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["2d9f06d5-0039-4eae-8c77-b8a9d7a6eace"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-b33333333333", "code": "召唤箱", "name": "召唤箱", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-e33333333333", "code": "开门机", "name": "开门机", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["2d9f08d5-0039-4eae-8c77-b8a9d7a6eace"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-f33333333333", "code": "操纵箱", "name": "操纵箱", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["2d9f09d5-0039-4eae-8c77-b8a9d7a6eace"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-h33333333333", "code": "承重架", "name": "承重架", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-j33333333333", "code": "控制柜", "name": "控制柜", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-k33333333333", "code": "限速器", "name": "限速器", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["2d9f0ert-0039-4eae-8c77-b8a9d7a6eace"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-w33333333333", "code": "对重架", "name": "对重架", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["2d9f0sdfs-0039-4eae-8c77-b8a9d7a6eace"] },
+    { "id": "b7c91c4d-5930-41b0-g6f0-y33333333333", "code": "缓冲器", "name": "缓冲器", "packageTypeId": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7", "group": ["2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace"] }
+  
+  ]

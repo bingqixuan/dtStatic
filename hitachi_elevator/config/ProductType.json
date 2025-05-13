@@ -1,0 +1,46 @@
+[
+    {
+        "id": "2e0f716c-1d3b-47f8-9374-780d97a6b7f7",
+        "code": "dt-01",
+        "name": "直梯",
+        "modelUrl": "日立/model/日立直梯4.glb",
+        "thumbnailUrl": "日立/直梯10.png",
+        "paths": [
+            "config/直梯/Component.json",
+            "config/直梯/Group.json",
+            "config/直梯/Degree.json",
+            "config/直梯/MaterialData.json",
+            "config/直梯/MeshData.json",
+            "config/直梯/OldGroup.json",
+            "config/直梯/PackageOption.json",
+            "config/直梯/PackageType.json"
+        ],
+        "vr": true,
+        "contrast":true,
+        "cameraPosition":[0,0,180],
+        "cameraTarget":[0,0,0],
+        "angularSensibility":1000
+    },
+    {
+        "id": "2e0f716c-155b-47f8-9374-5a0d97a6b7f7",
+        "code": "dt-02",
+        "name": "扶梯",
+        "modelUrl": "日立/model/日立扶梯.glb",
+        "thumbnailUrl": "日立/扶梯10.png",
+        "paths": [
+            "config/扶梯/Component.json",
+            "config/扶梯/Group.json",
+            "config/扶梯/Degree.json",
+            "config/扶梯/MaterialData.json",
+            "config/扶梯/MeshData.json",
+            "config/扶梯/OldGroup.json",
+            "config/扶梯/PackageOption.json",
+            "config/扶梯/PackageType.json"
+        ],
+        "vr": false,
+        "contrast":true,
+        "cameraPosition":[0,0,70],
+        "cameraTarget":[0,0,0],
+        "angularSensibility":1500
+    }
+]

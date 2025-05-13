@@ -1,0 +1,612 @@
+[
+    {
+        "id": "2beebcaf-8851-4690-b156-2526a14ff788",
+        "name": "5成新1",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "2beeb3af-8851-4690-b166-2526a1sff788",
+        "albedoTexture": "日立/texture1/外观/扶手5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/扶手5_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "2beebcaf-8851-4690-b156-2526a14ff988",
+        "name": "5成新1",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "2beeb3af-8851-4690-b166-2526a1sff788",
+        "albedoTexture": "日立/texture1/外观/扶手8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/扶手8_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "34eebcaf-8851-4690-b156-343434请问55667",
+        "name": "5成新18",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "2beeb3af-8851-4690-b166-2526a1sff788",
+        "albedoTexture": "日立/texture1/外观/扶手10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/扶手10_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "1beebcaf-8821-4690-b136-252641sff788",
+        "name": "5成新2",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "2beeb3af-8851-4690-b166-56564543f788",
+        "albedoTexture": "日立/texture1/外观/栏板5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/栏板5_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "11eebcaf-8821-4690-b136-252641sf1111",
+        "name": "5成新2",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "2beeb3af-8851-4690-b166-56564543f788",
+        "albedoTexture": "日立/texture1/外观/栏板8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/栏板8_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "25eebcaf-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "2beeb3af-8851-4690-b166-56564543f788",
+        "albedoTexture": "日立/texture1/外观/栏板10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/栏板10_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "25113caf-8871-2690-b166-2486a1sff788",
+        "name": "5成新4",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "1235b3af-8871-2690-b166-453456111f788",
+        "albedoTexture": "日立/texture1/外观/楼层板5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/楼层板5_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "2b22bcaf-8851-4690-b166-2526a1sff788",
+        "name": "5成新5",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "1235b3af-8871-2690-b166-453456111f788",
+        "albedoTexture": "日立/texture1/外观/楼层板8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/楼层板8_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "1b33bcaf-8821-4690-b136-252641sff788",
+        "name": "5成新6",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "1235b3af-8871-2690-b166-453456111f788",
+        "albedoTexture": "日立/texture1/外观/楼层板10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/楼层板10_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "1b33bcaf-8821-4690-b136-252641sff788",
+        "name": "5成新6",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "1beeb3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/外观/玻璃5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/玻璃5_RoughnessM.ktx2",
+        "transparent": 0.1
+    },
+    {
+        "id": "2544bcaf-8871-4690-b166-2586a1sff788",
+        "name": "5成新7",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "1beeb3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/外观/玻璃8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/玻璃8_RoughnessM.ktx2",
+        "transparent": 0.3
+    },
+    {
+        "id": "2555bcaf-8871-2690-b166-2486a1sff788",
+        "name": "5成新8",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "1beeb3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/外观/玻璃10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/玻璃10_RoughnessM.ktx2",
+        "transparent": 0.5
+    },
+    {
+        "id": "34eebcaf-8851-4690-b156-2526a14ff788",
+        "name": "5成新18",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "1235b3af-8871-2690-b166-2323231111f788",
+        "albedoTexture": "日立/texture1/外观/群板盖板5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/群板盖板5_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "2b66bcaf-8851-4690-b166-2526a1sff788",
+        "name": "5成新9",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "1235b3af-8871-2690-b166-2323231111f788",
+        "albedoTexture": "日立/texture1/外观/群板盖板8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/群板盖板8_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "2b77bcaf-8851-4690-b166-2526a1sff788",
+        "name": "5成新10",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "1235b3af-8871-2690-b166-2323231111f788",
+        "albedoTexture": "日立/texture1/外观/群板盖板10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/群板盖板10_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "2b88bcaf-8851-4690-b166-2526a1sff788",
+        "name": "5成新11",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "25eeb3af-8871-4690-b166-2586a1sff788",
+        "albedoTexture": "日立/texture1/外观/梯级/梯级5_1_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/梯级/梯级5_1_RoughnessM.ktx2",
+        "transparent": -1
+    },
+   
+    {
+        "id": "2b00bcaf-8851-4690-b166-2526a1sff788",
+        "name": "5成新13",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "25eeb3af-8871-4690-b166-2586a1sff788",
+        "albedoTexture": "日立/texture1/外观/梯级/梯级8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/梯级/梯级8_RoughnessM.ktx2",
+        "transparent": -1
+    },
+   
+    {
+        "id": "2b33bcaf-8851-4690-b166-2526a1sff788",
+        "name": "5成新16",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "25eeb3af-8871-4690-b166-2586a1sff788",
+        "albedoTexture": "日立/texture1/外观/梯级/梯级10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/外观/梯级/梯级10_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "11111111-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "2323233-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/扶梯主机/扶梯主机5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/扶梯主机/扶梯主机5_RoughnessMetallic.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "222222222-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "2323233-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/扶梯主机/扶梯主机8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/扶梯主机/扶梯主机8_RoughnessMetallic.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "333333333-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "2323233-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/扶梯主机/扶梯主机10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/扶梯主机/扶梯主机10_RoughnessMetallic.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "4444444444-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "1b33b3af-8821-4690-b136-252641s11111",
+        "albedoTexture": "日立/texture1/单双链/单链5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/单双链/单链5_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "55555555-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "1b33b3af-8821-4690-b136-252641s11111",
+        "albedoTexture": "日立/texture1/单双链/单链8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/单双链/单链8_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "666666666-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "1b33b3af-8821-4690-b136-252641s11111",
+        "albedoTexture": "日立/texture1/单双链/单链10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/单双链/单链10_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "77777777-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "2544b3af-8871-4690-b166-2586a1sff788",
+        "albedoTexture": "日立/texture1/附加制动器/附加制动器5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/附加制动器/附加制动器5_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "888888888-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "2544b3af-8871-4690-b166-2586a1sff788",
+        "albedoTexture": "日立/texture1/附加制动器/附加制动器8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/附加制动器/附加制动器8_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "99999999-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "2544b3af-8871-4690-b166-2586a1sff788",
+        "albedoTexture": "日立/texture1/附加制动器/附加制动器10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/附加制动器/附加制动器10_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "12121212121-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "2555b3af-8871-2690-b166-2486a1sff788",
+        "albedoTexture": "日立/texture1/桁架/桁架5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/桁架/桁架5_RoughnessMetallic.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "13131313131-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "2555b3af-8871-2690-b166-2486a1sff788",
+        "albedoTexture": "日立/texture1/桁架/桁架8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/桁架/桁架8_RoughnessMetallic.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "1414141414-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "2555b3af-8871-2690-b166-2486a1sff788",
+        "albedoTexture": "日立/texture1/桁架/桁架10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/桁架/桁架10_RoughnessMetallic.ktx2",
+        "transparent": -1
+    },
+    
+    {
+        "id": "0909090000-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "1235b3af-8871-2690-b166-2486a1111f788",
+        "albedoTexture": "日立/texture1/单双链/双链5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/单双链/双链5_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "1515151515-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "1235b3af-8871-2690-b166-2486a1111f788",
+        "albedoTexture": "日立/texture1/单双链/双链8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/单双链/双链8_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "161616161-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "1235b3af-8871-2690-b166-2486a1111f788",
+        "albedoTexture": "日立/texture1/单双链/双链10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/单双链/双链10_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "1717711717-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "2b66b3af-8851-4690-b166-2526a1sff788",
+        "albedoTexture": "日立/texture1/轴承/轴承5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/轴承/轴承5_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "181818181-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "2b66b3af-8851-4690-b166-2526a1sff788",
+        "albedoTexture": "日立/texture1/轴承/轴承8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/轴承/轴承8_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "191919119-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "2b66b3af-8851-4690-b166-2526a1sff788",
+        "albedoTexture": "日立/texture1/轴承/轴承10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/轴承/轴承10_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "2121212121-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "1b77b3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/其他/制动器/制动器5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/制动器/制动器5_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "3131313131-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "1b77b3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/其他/制动器/制动器8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/制动器/制动器8_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "4141414141-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "1b77b3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/其他/制动器/制动器10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/制动器/制动器10_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "51515151-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "1b33b3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/其他/其他支架/其他支架5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/其他支架/其他支架5_RoughnessM.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "6161616161-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "1b33b3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/其他/其他支架/其他支架8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/其他支架/其他支架8_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "7171717171-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "1b33b3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "其他/其他支架/其他支架10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "其他/其他支架/其他支架10_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "818181-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "2599b3af-8871-2690-b166-2486a1sff788",
+        "albedoTexture": "日立/texture1/其他/驱动链轮/驱动链轮5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/驱动链轮/驱动链轮5_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "91919191-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "2599b3af-8871-2690-b166-2486a1sff788",
+        "albedoTexture": "日立/texture1/其他/驱动链轮/驱动链轮8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/驱动链轮/驱动链轮8_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "242424242-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "2599b3af-8871-2690-b166-2486a1sff788",
+        "albedoTexture": "日立/texture1/其他/驱动链轮/驱动链轮10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/驱动链轮/驱动链轮10_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "2525252525-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "2599b3af-8871-2690-b166-22345566ff788",
+        "albedoTexture": "日立/texture1/其他/其他下/下5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/其他下/下5_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "26262626262-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "2599b3af-8871-2690-b166-22345566ff788",
+        "albedoTexture": "日立/texture1/其他/其他下/下8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/其他下/下8_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "27272727-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "2599b3af-8871-2690-b166-22345566ff788",
+        "albedoTexture": "日立/texture1/其他/其他下/下10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/其他下/下10_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "25e2882828282ebcaf-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "1b12b3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/其他/其他上/上5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/其他上/上5_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "292929292-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "1b12b3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/其他/其他上/上8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/其他上/上8_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "343434343-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "1b12b3af-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/其他/其他上/上10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/其他/其他上/上10_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "34454544343-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "56666555-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/控制系统/控制柜/控制柜5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/控制系统/控制柜/控制柜5_RoughnessMF.ktx2",
+        "transparent": -1
+    }
+    ,
+    {
+        "id": "365656565-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "56666555-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/控制系统/控制柜/控制柜8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/控制系统/控制柜/控制柜8_RoughnessMF.ktx2",
+        "transparent": -1
+    }
+    ,
+    {
+        "id": "676766663-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "56666555-8821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/控制系统/控制柜/控制柜10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/控制系统/控制柜/控制柜10_RoughnessMF.ktx2",
+        "transparent": -1
+    },
+    {
+        "id": "676767676-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "1234567438821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/控制系统/油泵/油泵5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/控制系统/油泵/油泵5_RoughnessMF.ktx2",
+        "transparent": -1
+    }
+    ,
+    {
+        "id": "78787878787-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "1234567438821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/控制系统/油泵/油泵8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/控制系统/油泵/油泵8_RoughnessMF.ktx2",
+        "transparent": -1
+    }
+    ,
+    {
+        "id": "87878787787-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "1234567438821-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/控制系统/油泵/油泵10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/控制系统/油泵/油泵10_RoughnessMF.ktx2",
+        "transparent": -1
+    }
+    ,
+    {
+        "id": "676767676-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "981d9a87-1bb7-46e7-8084-8665be84a236",
+        "materialId": "6785543333-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/控制系统/油泵/透明5_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/控制系统/油泵/透明5_RoughnessMF.ktx2",
+        "transparent":0.6
+    }
+    ,
+    {
+        "id": "78787878787-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "10f68229-0c05-451e-85aa-234f6f120ddb",
+        "materialId": "6785543333-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/控制系统/油泵/透明8_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/控制系统/油泵/透明8_RoughnessMF.ktx2",
+        "transparent": 0.6
+    }
+    ,
+    {
+        "id": "87878787787-8871-4690-b166-2586a1sff788",
+        "name": "5成新3",
+        "degreeId": "8e56631f-ab2f-4574-a969-7f75f8b69903",
+        "materialId": "6785543333-4690-b136-252641sff788",
+        "albedoTexture": "日立/texture1/控制系统/油泵/透明10_BaseColor.ktx2",
+        "bumpTexture": "",
+        "roughnessTexture": "日立/texture1/控制系统/油泵/透明10_RoughnessMF.ktx2",
+        "transparent": 0.6
+    }
+]

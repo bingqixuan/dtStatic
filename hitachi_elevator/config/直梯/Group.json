@@ -1,0 +1,15 @@
+[{ "id": "2d9f09d5-0039-4eae-8c77-b8a9d7a6eace", "code": "wl-op-03", "name": "操纵箱",  "component": ["34eebcaf-8851-4690-b156-2526a1412128"] },
+{ "id": "2d9f06d5-0039-4eae-8c77-b8a9d7a6eace", "code": "wl-op-03", "name": "层门头", "component": ["1422bcaf-8851-4690-b166-2526a1sff788"] },
+{ "id": "2d9f0-d5-0039-4eae-8c77-b8a9d7a6eace", "code": "wl-op-03", "name": "承重架",  "component": ["1755bcaf-8871-2690-b166-2486a1sff788"] },
+{ "id": "2d9f05d5-0039-4eae-8c77-b8a9d7a6eace", "code": "wl-op-03", "name": "地坎", "component": ["11eebcaf-8821-4690-b136-252641sff788"] },
+{ "id": "2d9f0sdfs-0039-4eae-8c77-b8a9d7a6eace", "code": "wl-op-03", "name": "对重架",  "component": ["12eebcaf-8871-4690-b166-2586a1sff788","13113caf-8871-2690-b166-2486a1sff788"] },
+{ "id": "2d9f0fxc5-0039-4eae-8c77-b8a9d7a6eace", "code": "wl-op-03", "name": "缓冲器", "component": ["1866bcaf-8851-4690-b166-2526a1sff788"] },
+{ "id": "f3e41114a-9b2e-4a17-8494-0b7a4b5a6a84", "code": "wl-op-01", "name": "轿架", "component": ["2088bcaf-8851-4690-b166-2526a1sff788"] },
+{ "id": "b7c91c4d-5980-41b0-96f0-bd38e2d6d3af", "code": "wl-op-02", "name": "轿厢", "component": ["1977bcaf-8851-4690-b166-2526a1sff788","11eebcaf-8821-4690-b136-252641sf1111"] },
+{ "id": "2d9f08d5-0039-4eae-8c77-b8a9d7a6eace", "code": "wl-op-03", "name": "开门机",  "component": ["1533bcaf-8821-4690-b136-252641sff788", "2333bcaf-8821-4690-b136-252641sff788"] },
+{ "id": "2d9f0qwed5-0039-4eae-8c77-b8a9d7a6eace", "code": "wl-op-03", "name": "控制柜", "component": ["1755bcaf-8871-2690-b166-24823132a1sff788"] },
+{ "id": "b7444c4d-5980-41b0-96f0-bd38e2d6d3af", "code": "wl-op-02", "name": "层门",  "component": ["2200bcaf-8851-4690-b166-2526a1sff788"] },
+{ "id": "2d9f0ert-0039-4eae-8c77-b8a9d7a6eace", "code": "wl-op-03", "name": "限速器", "component": ["2422bcaf-8851-4690-b166-2526a1sff788"] },
+{ "id": "f3e4d14a-9b2e-4a17-8494-1b7a4b5a6a84", "code": "wl-op-04", "name": "召唤箱",  "component": ["34eebcaf-8851-4690-b156-34343455667"] },
+{ "id": "2d9f00d5-0039-4eae-8c77-b8a9d7a6eace", "code": "wl-op-03", "name": "主机",  "component": ["2beebcaf-8851-4690-b156-252124ff788", "2beebcaf-8851-4690-b156-552124f6788","2199bcaf-8851-4690-b166-2526a1sff788","2199bcaf-8851-4690-b166-rtyy6777777","3533bcaf-8851-4690-b166-2526a1sff788"] }
+]

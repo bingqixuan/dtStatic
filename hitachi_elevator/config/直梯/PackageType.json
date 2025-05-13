@@ -1,0 +1,23 @@
+[
+  {
+    "id": "2e0t716c-2d3b-47f8-9374-5a0d9766b7f7",
+    "type": "fixed",
+    "code": "pg-01",
+    "name": "M1套餐",
+    "productTypeId": "2e0f716c-1d3b-47f8-9374-780d97a6b7f7"
+  },
+  {
+    "id": "2e0f716c-1d3b-47f8-9174-5a0d97a6b7f7",
+    "type": "fixed",
+    "code": "pg-02",
+    "name": "M2套餐",
+    "productTypeId": "2e0f716c-1d3b-47f8-9374-780d97a6b7f7"
+  },
+  {
+    "id": "2e0t716c-2d3b-47f8-9374-5a0d97a6b7f7",
+    "type": "free",
+    "code": "pg-03",
+    "name": "自由",
+    "productTypeId": "2e0f716c-1d3b-47f8-9374-780d97a6b7f7"
+  }
+]
